@@ -12,8 +12,8 @@ namespace Hello
         {
             Console.WriteLine("Hello World");
 
-            //New Hello feature
-            for ( int i = 0; i < 5; i++)
+            //Edited Hello feature
+            for ( int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Nice to meet you!");
             }
