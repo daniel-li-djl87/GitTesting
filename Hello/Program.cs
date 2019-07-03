@@ -11,6 +11,12 @@ namespace Hello
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+
+            //New Hello feature
+            for ( int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Nice to meet you!");
+            }
         }
     }
 }
