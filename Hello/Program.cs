@@ -6,11 +6,23 @@ using System.Threading.Tasks;
 
 namespace Hello
 {
+    class Person
+    {
+        public int Age { get; set; }
+        public string Name { get; set; }
+        public Person(int age, string name)
+        {
+            this.Age = age;
+            this.Name = name;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Person p = new Person(18, "Daniel");
+            Console.WriteLine("Hello {0}", p.Name);
 
             //Edited Hello feature
             for ( int i = 0; i < 10; i++)
