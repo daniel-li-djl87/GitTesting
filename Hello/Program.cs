@@ -17,6 +17,10 @@ namespace Hello
             {
                 Console.WriteLine("Nice to meet you!");
             }
+
+            //New Goodbye feature
+            Console.WriteLine("Goodbye!");
+            Console.ReadLine();
         }
     }
 }
